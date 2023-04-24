@@ -9,3 +9,4 @@ build
 twine
 notion-client
 python-dotenv
+auto_gpt_plugin_template

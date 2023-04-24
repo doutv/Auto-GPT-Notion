@@ -2,8 +2,7 @@
 import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, TypedDict, TypeVar
-
-from abstract_singleton import AbstractSingleton, Singleton
+from auto_gpt_plugin_template import AutoGPTPluginTemplate
 from dotenv import load_dotenv
 from notion_client import Client
 
@@ -18,7 +17,7 @@ class Message(TypedDict):
     content: str
 
 
-class AutoGPTNotion(AbstractSingleton, metaclass=Singleton):
+class AutoGPTNotion(AutoGPTPluginTemplate):
     """
     Notion API integrations using notion-sdk-py
     """
