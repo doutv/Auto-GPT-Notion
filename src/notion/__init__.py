@@ -64,8 +64,8 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
         from .notion import create_page, get_all_pages
 
         prompt.add_command(
-            "create_page",
-            "Create Page",
+            "notion_create_page",
+            "Create Notion Page",
             {
                 "title": "<title>",
                 "summary": "<summary>",
@@ -74,7 +74,7 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
             },
             create_page,
         )
-        prompt.add_command("get_all_pages", "Get All Pages", {}, get_all_pages)
+        prompt.add_command("notion_get_all_pages", "Get Pages inside Notion Database", {}, get_all_pages)
 
         return prompt
 
