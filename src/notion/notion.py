@@ -1,5 +1,6 @@
-from notion_client import Client
 from pprint import pprint
+
+from notion_client import Client
 
 from . import AutoGPTNotion
 
@@ -63,7 +64,7 @@ def get_all_pages():
     return page_info
 
 
-'''
+"""
 if __name__ == "__main__":
     database_id = "e3187aaa1aed42c39f0f372fdf84655e"
     pprint(get_all_pages(database_id))
@@ -76,4 +77,4 @@ if __name__ == "__main__":
             tags=["information", "test"],
         )
     )
-'''
+"""

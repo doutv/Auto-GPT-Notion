@@ -1,9 +1,10 @@
 """Notion API integrations using notion-sdk-py"""
-from typing import Any, Dict, List, Optional, Tuple, TypedDict, TypeVar
-from dotenv import load_dotenv
-from pathlib import Path
 import os
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple, TypedDict, TypeVar
+
 from abstract_singleton import AbstractSingleton, Singleton
+from dotenv import load_dotenv
 from notion_client import Client
 
 PromptGenerator = TypeVar("PromptGenerator")
