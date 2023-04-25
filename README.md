@@ -17,6 +17,8 @@ ai_goals:
 ai_name: Notion-GPT
 ai_role: Research assistant
 ```
+[My Notion Database](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b)
+
 ![image](https://user-images.githubusercontent.com/20609724/234296458-f303140f-bf58-48d8-89e2-06f52806893d.png)
 
 ## Install
