@@ -11,11 +11,14 @@ Applications:
 
 ## Demo
 ```
-python -m autogpt
-Plugins found: 1
---------------------
-autogpt-notion: 0.1.0 - Notion API integrations using notion-sdk-py
+# ai_settings.yaml
+ai_goals:
+- Use "google" command to search what is Auto-GPT, and save the result to a Notion page
+ai_name: Notion-GPT
+ai_role: Research assistant
 ```
+![image](https://user-images.githubusercontent.com/20609724/234296458-f303140f-bf58-48d8-89e2-06f52806893d.png)
+
 ## Install
 **Do not clone this repo**, the working directory and environment are under **Auto-GPT**.
 
