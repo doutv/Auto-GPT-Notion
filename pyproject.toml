@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Notion plugin for Auto-GPT."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -23,15 +23,9 @@ classifiers = [
 
 [tool.black]
 line-length = 88
-target-version = ['py38']
+target-version = ['py310']
 include = '\.pyi?$'
 extend-exclude = ""
 
 [tool.isort]
 profile = "black"
-
-[tool.pylint.messages_control]
-disable = "C0330, C0326"
-
-[tool.pylint.format]
-max-line-length = "88"

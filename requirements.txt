@@ -1,12 +1,6 @@
 black
 isort
 flake8
-pylint
-abstract-singleton
-wheel
-setuptools
-build
-twine
 notion-client
 python-dotenv
 auto_gpt_plugin_template

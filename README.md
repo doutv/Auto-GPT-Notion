@@ -22,7 +22,7 @@ autogpt-notion: 0.1.0 - Notion API integrations using notion-sdk-py
 1. Install [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) and make sure you can run it successfully.
 2. Install extra dependencies for this plugin.
     ```
-    pip install -r requirements.txt
+    pip install notion-client python-dotenv auto_gpt_plugin_template
     ```
 3. [Click Here](https://github.com/doutv/Auto-GPT-Notion/archive/refs/heads/master.zip) to download the source code as **ZIP**, and place the **ZIP** file under `plugins/`.
 4. Create an Notion integration:
