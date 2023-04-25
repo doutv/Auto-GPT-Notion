@@ -17,7 +17,6 @@ ai_goals:
 ai_name: Notion-GPT
 ai_role: Research assistant
 ```
-[My Notion Database](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b)
 
 ![image](https://user-images.githubusercontent.com/20609724/234296458-f303140f-bf58-48d8-89e2-06f52806893d.png)
 
@@ -32,7 +31,7 @@ ai_role: Research assistant
 3. [Click Here](https://github.com/doutv/Auto-GPT-Notion/archive/refs/heads/master.zip) to download the source code as **ZIP**, and place the **ZIP** file under `plugins/`.
 4. Create an Notion integration:
    1. Create an integration and get the token `NOTION_TOKEN`.
-   2. Create a database based on this template.
+   2. Create a database based on [this database structure](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b). Properties include: `Tags` and `Summary`.
    3. Share the database with your integration.
    4. Save the database ID `NOTION_DATABASE_ID`.
    5. [Check the Notion official docs for detailed instructions.](https://developers.notion.com/docs/create-a-notion-integration)
