@@ -29,12 +29,18 @@ ai_role: Research assistant
     pip install notion-client python-dotenv auto_gpt_plugin_template
     ```
 3. [Click Here](https://github.com/doutv/Auto-GPT-Notion/archive/refs/heads/master.zip) to download the source code as **ZIP**, and place the **ZIP** file under `plugins/`.
-4. Create an Notion integration:
-   1. Create an integration and get the token `NOTION_TOKEN`.
-   2. Create a database based on [this database structure](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b). Properties include: `Tags` and `Summary`.
-   3. Share the database with your integration.
-   4. Save the database ID `NOTION_DATABASE_ID`.
-   5. [Check the Notion official docs for detailed instructions.](https://developers.notion.com/docs/create-a-notion-integration)
+4. Notion settings:
+   1. Create an integration [here](https://www.notion.so/my-integrations), and get the token `NOTION_TOKEN`.
+   2. Duplicate [this database template](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b), click "Duplicate" on upper right corner.
+   3. Share the newly created database with your integration, click "..." on upper right corner, then click "Add connections" and input the integration name in the first step.
+   4. Save the database ID `NOTION_DATABASE_ID`, you can get from the database url.
+        ```
+        For example:
+        https://www.notion.so/doutv/2e2030693c624c258bcc402ef8d4b357?v=...
+                                    |-------- database ID ----------|
+        NOTION_DATABASE_ID=2e2030693c624c258bcc402ef8d4b357
+        ```
+   6. [Check the Notion official docs for detailed instructions.](https://developers.notion.com/docs/create-a-notion-integration)
 5. Edit `.env`:
    1. Add this plugin `AutoGPTNotion`to Auto-GPT plugin whitelist.
         ```
