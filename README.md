@@ -42,11 +42,11 @@ ai_role: Research assistant
         ```
    6. [Check the Notion official docs for detailed instructions.](https://developers.notion.com/docs/create-a-notion-integration)
 5. Edit `.env`:
-   1. Add this plugin `AutoGPTNotion` to Auto-GPT plugin whitelist.
+   1. Add this plugin to whitelist. If you have other plugins enabled, append `AutoGPTNotion` to `ALLOWLISTED_PLUGINS`.
         ```
         ALLOWLISTED_PLUGINS=AutoGPTNotion
         ```
-   2. Add Notion token and database id to `.env` under Auto-GPT directory.
+   2. Add Notion token and database id.
         ```
         ################################################################################
         ### Notion
