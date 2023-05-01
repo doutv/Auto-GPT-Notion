@@ -10,6 +10,8 @@ Applications:
 - Notion as a knowledge base, chat with it on Discord/Slack.
 
 ## Demo
+[See this database](https://doutv.notion.site/doutv/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b) which is managed by Auto-GPT.
+
 ```
 # ai_settings.yaml
 ai_goals:
