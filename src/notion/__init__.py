@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, TypedDict, TypeVar
+
 from auto_gpt_plugin_template import AutoGPTPluginTemplate
 from dotenv import load_dotenv
 from notion_client import Client
@@ -65,7 +66,7 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
 
         prompt.add_command(
             "notion_create_page",
-            "Create Notion Page",
+            "Create a new Notion page",
             {
                 "title": "<title>",
                 "summary": "<summary>",
@@ -74,7 +75,12 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
             },
             create_page,
         )
-        prompt.add_command("notion_get_all_pages", "Get Pages inside Notion Database", {}, get_all_pages)
+        prompt.add_command(
+            "notion_get_all_pages",
+            "Retrieves all pages properties from a database",
+            {},
+            get_all_pages,
+        )
 
         return prompt
 
