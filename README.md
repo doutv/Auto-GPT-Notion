@@ -70,3 +70,6 @@ If you encounter problems or have any ideas, feel free to discuss:
 This plugin is under development. 
 
 Join me by submitting issues and pull requests.
+
+### Run tests
+`pytest -vs`

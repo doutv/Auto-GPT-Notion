@@ -137,3 +137,19 @@ def retrieve_page(page_id):
     """
     Retrieve page properties and content by id
     """
+    # Get page properties
+    properties = plugin.notion.pages.retrieve(page_id=page_id).get("properties")
+    # Get page contents from all its child blocks
+    blocks = plugin.notion.blocks.children.list(block_id=page_id).get("results")
+    content = ""
+    for block in blocks:
+        content += block.get("paragraph").get("rich_text")[0].get("text").get("content")
+    return {
+        "title": properties.get("Title").get("title")[0].get("text").get("content"),
+        "summary": properties.get("Summary")
+        .get("rich_text")[0]
+        .get("text")
+        .get("content"),
+        "tags": [tag.get("name") for tag in properties.get("Tags").get("multi_select")],
+        "content": content,
+    }
