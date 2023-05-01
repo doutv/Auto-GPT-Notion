@@ -1,7 +1,7 @@
 # Auto-GPT Notion Plugin
 
 ## Features
-- Read & Write Notion databases/pages.
+- Read & Create & Update Notion databases/pages.
 - Automatically collects information from the web and archives it to Notion.
 - Save Auto-GPT's ideas to Notion.
 
@@ -17,6 +17,13 @@ ai_role: Research assistant
 ```
 
 ![image](https://user-images.githubusercontent.com/20609724/234296458-f303140f-bf58-48d8-89e2-06f52806893d.png)
+
+## Commands
+- `notion_get_all_pages` Retrieves all pages properties from a database.
+- `notion_retrieve_page` Retrieves a page's properties and content by id.
+- `notion_create_page` Create a new Notion page.
+- `notion_append_page` Append page content by id.
+- `notion_update_page_properties` Update a page's properties by id.
 
 ## Install
 **Do not clone this repo**, the working directory and environment are under **Auto-GPT**.
