@@ -62,7 +62,13 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
         Returns:
             PromptGenerator: The prompt generator.
         """
-        from .notion import create_page, get_all_pages
+        from .notion import (
+            append_page,
+            create_page,
+            get_all_pages,
+            retrieve_page,
+            update_page_properties,
+        )
 
         prompt.add_command(
             "notion_create_page",
@@ -80,6 +86,29 @@ class AutoGPTNotion(AutoGPTPluginTemplate):
             "Retrieves all pages properties from a database",
             {},
             get_all_pages,
+        )
+        prompt.add_command(
+            "notion_append_page",
+            "Append page content by id",
+            {"page_id": "<page_id>", "content": "<content>"},
+            append_page,
+        )
+        prompt.add_command(
+            "notion_retrieve_page",
+            "Retrieves a page's properties and content by id",
+            {"page_id": "<page_id>"},
+            retrieve_page,
+        )
+        prompt.add_command(
+            "notion_update_page_properties",
+            "Update a page's properties by id",
+            {
+                "page_id": "<page_id>",
+                "title": "<title>",
+                "summary": "<summary>",
+                "tags": "<list_of_tags>",
+            },
+            update_page_properties,
         )
 
         return prompt
