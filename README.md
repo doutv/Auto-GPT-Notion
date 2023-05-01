@@ -1,13 +1,9 @@
 # Auto-GPT Notion Plugin
-> Under rapid development
 
-Extend Auto-GPT capabilities:
-- Read Notion pages
-- Write to Notion pages
-
-Applications:
+## Features
+- Read & Write Notion databases/pages.
 - Automatically collects information from the web and archives it to Notion.
-- Notion as a knowledge base, chat with it on Discord/Slack.
+- Save Auto-GPT's ideas to Notion.
 
 ## Demo
 [See this database](https://doutv.notion.site/doutv/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b) which is managed by Auto-GPT.
