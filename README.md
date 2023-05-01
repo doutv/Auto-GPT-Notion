@@ -42,7 +42,7 @@ ai_role: Research assistant
         ```
    6. [Check the Notion official docs for detailed instructions.](https://developers.notion.com/docs/create-a-notion-integration)
 5. Edit `.env`:
-   1. Add this plugin `AutoGPTNotion`to Auto-GPT plugin whitelist.
+   1. Add this plugin `AutoGPTNotion` to Auto-GPT plugin whitelist.
         ```
         ALLOWLISTED_PLUGINS=AutoGPTNotion
         ```
@@ -56,6 +56,13 @@ ai_role: Research assistant
         NOTION_DATABASE_ID=<Notion database id>
         ```
 6. Run Auto-GPT and enjoy!
+
+### FAQ
+1. I Cannot see `Plugin found` and `autogpt-notion` in command line output.  
+
+    You didn't install the notion plugin successfully. Make sure you follow steps 1, 2, 3, 5(i).
+
+
 
 If you encounter problems or have any ideas, feel free to discuss:
 - [Issues](https://github.com/doutv/Auto-GPT-Notion/issues)
