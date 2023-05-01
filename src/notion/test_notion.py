@@ -69,7 +69,7 @@ def test_update_page_properties():
         title="test_update_page_properties",
         summary="failed",
         tags=["test", "test-failed"],
-        content="update_page_properties() failed"
+        content="update_page_properties() failed",
     )
     pprint(
         update_page_properties(
