@@ -73,7 +73,12 @@ def get_all_pages():
         page_properties = page.get("properties")
 
         # Get the title of the page
-        title = page_properties.get("Title").get("title")[0].get("text").get("content")
+        try:
+            title = (
+                page_properties.get("Title").get("title")[0].get("text").get("content")
+            )
+        except IndexError or AttributeError:
+            title = None
 
         # Try to get the summary of the page, or set it to None if it doesn't exist
         try:
