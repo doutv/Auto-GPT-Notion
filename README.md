@@ -18,13 +18,6 @@ ai_role: Research assistant
 
 ![image](https://user-images.githubusercontent.com/20609724/234296458-f303140f-bf58-48d8-89e2-06f52806893d.png)
 
-## Commands
-- `notion_get_all_pages` Retrieves all pages properties from a database.
-- `notion_retrieve_page` Retrieves a page's properties and content by id.
-- `notion_create_page` Create a new Notion page.
-- `notion_append_page` Append page content by id.
-- `notion_update_page_properties` Update a page's properties by id.
-
 ## Install
 **Do not clone this repo**, the working directory and environment are under **Auto-GPT**.
 
@@ -74,6 +67,13 @@ Auto-GPT version: https://github.com/Significant-Gravitas/Auto-GPT/releases/tag/
 If you encounter problems or have any ideas, feel free to discuss:
 - [Issues](https://github.com/doutv/Auto-GPT-Notion/issues)
 - [Discord Channel](https://discord.com/channels/1092243196446249134/1098882305000472626)
+
+## Commands
+- `notion_get_all_pages` Retrieves all pages properties from a database.
+- `notion_retrieve_page` Retrieves a page's properties and content by id.
+- `notion_create_page` Create a new Notion page.
+- `notion_append_page` Append page content by id.
+- `notion_update_page_properties` Update a page's properties by id.
 
 ## Contribution
 This plugin is under development. 
