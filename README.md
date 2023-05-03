@@ -28,7 +28,9 @@ ai_role: Research assistant
 ## Install
 **Do not clone this repo**, the working directory and environment are under **Auto-GPT**.
 
-1. Install [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) and make sure you can run it successfully.
+Auto-GPT version: https://github.com/Significant-Gravitas/Auto-GPT/releases/tag/v0.3.0
+
+1. Install [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT), **checkout the [latest release v0.3.0](https://github.com/Significant-Gravitas/Auto-GPT/releases/tag/v0.3.0) which add plugins support**, and make sure you can run it successfully.
 2. Install extra dependencies for this plugin.
     ```
     pip install notion-client python-dotenv auto_gpt_plugin_template
