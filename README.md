@@ -164,6 +164,6 @@ pytest -vs
 [issues-shield]: https://img.shields.io/github/issues/doutv/Auto-GPT-Notion.svg?style=for-the-badge
 [issues-url]: https://github.com/doutv/Auto-GPT-Notion/issues
 [license-shield]: https://img.shields.io/github/license/doutv/Auto-GPT-Notion.svg?style=for-the-badge
-[license-url]: https://github.com/doutv/Auto-GPT-Notion/blob/master/LICENSE.txt
+[license-url]: https://github.com/doutv/Auto-GPT-Notion/blob/master/LICENSE
 [discord-shield]: https://img.shields.io/badge/Discord-channel-brightgreen?style=for-the-badge
 [discord-url]: https://discord.com/channels/1092243196446249134/1098882305000472626
