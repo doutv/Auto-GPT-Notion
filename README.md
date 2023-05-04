@@ -1,6 +1,8 @@
 # Auto-GPT Notion Plugin
+<img src="https://user-images.githubusercontent.com/20609724/236097216-c6516099-5823-49d3-9941-fa0193c81acd.png" style="width: 100px"/>
 
 ## Features
+
 - Read & Create & Update Notion databases/pages.
 - Automatically collects information from the web and archives it to Notion.
 - Save Auto-GPT's ideas to Notion.
