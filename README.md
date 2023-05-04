@@ -139,10 +139,10 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Run Tests
 `pytest -vs`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgments
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
