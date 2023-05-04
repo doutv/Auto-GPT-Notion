@@ -23,6 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
+[![Discord][discord-shield]][discord-url]
 
 
 
@@ -164,3 +165,5 @@ pytest -vs
 [issues-url]: https://github.com/doutv/Auto-GPT-Notion/issues
 [license-shield]: https://img.shields.io/github/license/doutv/Auto-GPT-Notion.svg?style=for-the-badge
 [license-url]: https://github.com/doutv/Auto-GPT-Notion/blob/master/LICENSE.txt
+[discord-shield]: https://img.shields.io/badge/Discord-channel-brightgreen?style=for-the-badge
+[discord-url]: https://discord.com/channels/1092243196446249134/1098882305000472626
