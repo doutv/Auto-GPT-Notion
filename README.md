@@ -94,9 +94,9 @@ ai_role: Research assistant
 3. Share the newly created database with your integration, click "..." on upper right corner, then click "Add connections" and input the integration name in the first step.
 4. Save the database ID `NOTION_DATABASE_ID`, you can get from the database url.
     ```
-    https://www.notion.so/doutv/2e2030693c624c258bcc402ef8d4b357?v=...
-                               |--------- database ID ----------|
-    NOTION_DATABASE_ID=2e2030693c624c258bcc402ef8d4b357
+    https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b
+                             |--------- database ID ----------|
+    NOTION_DATABASE_ID=e3187aaa1aed42c39f0f372fdf84655e
     ```
 
 
