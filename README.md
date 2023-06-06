@@ -60,7 +60,7 @@
 - Save Auto-GPT's ideas to Notion.
 
 ### Demo
-[Visit this database](https://doutv.notion.site/doutv/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b) managed by Auto-GPT.
+[Visit this database](https://doutv.notion.site/doutv/a90461761f46498ea2efc4435e54091b?v=d34c7e21836f4a3b8293de74138f38e5) managed by Auto-GPT.
 
 ```yaml
 # ai_settings.yaml
@@ -90,7 +90,7 @@ ai_role: Research assistant
 ### Notion Settings
 > Check the [Notion official docs](https://developers.notion.com/docs/create-a-notion-integration) for more details.
 1. Create an integration [here](https://www.notion.so/my-integrations), and get the token `NOTION_TOKEN`.
-2. Duplicate [this database template](https://doutv.notion.site/e3187aaa1aed42c39f0f372fdf84655e?v=b892e5b7d13f49ec8ff200916e79cf5b), click "Duplicate" on upper right corner.
+2. Duplicate [this database template](https://doutv.notion.site/doutv/a90461761f46498ea2efc4435e54091b?v=d34c7e21836f4a3b8293de74138f38e5), click "Duplicate" on upper right corner.
 3. Share the newly created database with your integration, click "..." on upper right corner, then click "Add connections" and input the integration name in the first step.
 4. Save the database ID `NOTION_DATABASE_ID`, you can get from the database url.
     ```
