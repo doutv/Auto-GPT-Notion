@@ -3,6 +3,10 @@ from . import AutoGPTNotion
 plugin = AutoGPTNotion()
 
 
+def _unwrap_rich_text(rich_text: list):
+    return "".join([each.get("text").get("content") for each in rich_text])
+
+
 def create_page(title, summary, tags, content):
     """
     Creates a new Notion page
@@ -148,13 +152,10 @@ def retrieve_page(page_id):
     blocks = plugin.notion.blocks.children.list(block_id=page_id).get("results")
     content = ""
     for block in blocks:
-        content += block.get("paragraph").get("rich_text")[0].get("text").get("content")
+        content += _unwrap_rich_text(block[block["type"]].get("rich_text"))
     return {
         "title": properties.get("Title").get("title")[0].get("text").get("content"),
-        "summary": properties.get("Summary")
-        .get("rich_text")[0]
-        .get("text")
-        .get("content"),
+        "summary": _unwrap_rich_text(properties.get("Summary").get("rich_text")),
         "tags": [tag.get("name") for tag in properties.get("Tags").get("multi_select")],
         "content": content,
     }
